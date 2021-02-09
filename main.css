@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #product-overview {
   background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
     url("images/freedom.jpg") center/cover no-repeat border-box,
@@ -24,6 +25,8 @@
   left: 3%;
   font-size: 1.6rem;
 }
+=======
+>>>>>>> bb028f5b1b739dc04ed787fb43646de0e0cb1bfd
 
 @media (min-width: 40rem) and (min-height: 40rem) {
   #product-overview {
@@ -39,6 +42,12 @@
 .section-title {
   color: #2ddf5c;
   text-align: center;
+}
+
+.plan__list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
 
 .plan {
@@ -88,6 +97,7 @@
   margin: 0.5rem 0;
 }
 
+<<<<<<< HEAD
 @media (min-width: 40rem) {
   .plan__list {
     width: 100%;
@@ -107,6 +117,8 @@
   }
 }
 
+=======
+>>>>>>> bb028f5b1b739dc04ed787fb43646de0e0cb1bfd
 #key-features {
   background: #ff1b68;
   margin-top: 5rem;
@@ -119,6 +131,7 @@
 }
 
 .key-feature__list {
+<<<<<<< HEAD
   list-style: none;
   margin: 0;
   padding: 0;
@@ -196,6 +209,34 @@
 .modal__action--negative {
   background: red;
   border-color: red;
+=======
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.key-feature {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.key-feature__image {
+    background: #ffcede;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.key-feature__description {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+>>>>>>> bb028f5b1b739dc04ed787fb43646de0e0cb1bfd
 }
 
 .modal__action--negative:hover,
